@@ -10,7 +10,7 @@ common_ports = [21, 22, 23, 25, 53, 80, 110, 143, 443]
 
 print(f"\nScanning {target}...\n")
 
-for port in common_ports:
+for port in common_ports: 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(1)
 
